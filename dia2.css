@@ -1,0 +1,38 @@
+body{
+    background-color:#66a8ea
+}
+
+
+
+.circle{
+    position: absolute;
+    box-sizing: border-box; /*//Para definir bien todo*/
+    top: 200px;
+    left: 500px;
+    width: 300px;
+    height: 300px;
+    border: solid white 20px;
+    border-radius: 999px;
+}
+.segundos, .minutos, .horas{
+width: 130px;
+height: 3px;
+background-color: black;
+position: absolute;
+top: 350px;
+left: 520px; 
+transform-origin: 100%;
+transform: rotate(90deg);
+
+
+}
+.horas{
+    width: 100px;
+    left: 550px;
+    background-color: #000080;
+}
+.minutos{
+    width: 120px;
+    left: 530px;
+    background-color: blue;
+}
